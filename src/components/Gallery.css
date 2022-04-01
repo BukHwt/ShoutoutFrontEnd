@@ -1,0 +1,11 @@
+.Gallery ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+.Gallery h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
