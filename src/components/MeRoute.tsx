@@ -26,7 +26,7 @@ const MeRoute = () => {
     } else {
       navigate("/");
     }
-  }, [user]);
+  }, [user, navigate]);
 
   return (
     <div className="MeRoute">

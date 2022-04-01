@@ -41,7 +41,7 @@ const Gallery = () => {
 
   useEffect(() => {
     getAndSetShoutouts(queryStringParams);
-  }, []);
+  }, [queryStringParams]);
 
   return (
     <div className="Gallery">
